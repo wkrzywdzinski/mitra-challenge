@@ -1,0 +1,44 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 80%;
+  height: 10%;
+  z-index: 100;
+  line-height: 80px;
+  vertical-align: middle;
+  background-color: #001b35;
+}
+
+img {
+  vertical-align: middle;
+  margin-right: 5%;
+}
+
+a {
+  color: #b1bac5;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+header a:nth-of-type(1) {
+  font-weight: bold;
+}
+
+input {
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 40%;
+  width: 35%;
+  border-radius: 25px;
+  text-indent: 5%;
+}
+
+button {
+  color: #ffbb00;
+  background-color: Transparent;
+  width: 6%;
+  border: 2px solid #ffbb00;
+  border-radius: 25px;
+  padding: 10px;
+}

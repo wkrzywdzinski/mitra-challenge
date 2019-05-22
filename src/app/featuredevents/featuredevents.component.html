@@ -1,0 +1,11 @@
+<div class="eventscontainer">
+  <p class="eventstitle">Featured Events ({{events.length}})</p>
+  <p>Concerts, Sports & Comedy</p>
+  <div class="eventscardscontainer">
+    <div *ngFor="let event of events" class="eventcard">
+      <img src="{{event.image}}">
+      <p>{{event.title}}</p>
+      <p>Rating: {{event.rating}}/5</p>
+    </div>
+  </div>
+</div>
