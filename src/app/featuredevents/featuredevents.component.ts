@@ -11,7 +11,7 @@ export class FeaturedeventsComponent implements OnInit {
     constructor(private http: HttpClient) {}
 
     ngOnInit() {
-        this.http.get('http://localhost:4200/assets/events.json').subscribe(events => {
+        this.http.get<any[]>('http://localhost:4200/assets/events.json').subscribe(events => {
             this.events = events;
         });
     }
